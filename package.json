@@ -1,17 +1,15 @@
 {
-  "name": "website-analyzer",
+  "name": "website-intelligence-scanner",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "AI-powered SEO and Security website analyzer",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Abishek",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "axios": "^1.13.5",
-    "body-parser": "^2.2.2",
     "express": "^5.2.1"
   }
 }
